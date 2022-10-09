@@ -1,17 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head > <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> TIRAMISU RECIPE</title>
+    <style>
+     *{
+        background-color:rgb(252, 245, 245);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(36, 25, 13);
+        font-size: 18px;
+        font-family: 'Caveat Brush', cursive;
+        color: rgb(8, 8, 8);
+      
+     }
+.header { padding: 0%;}
+     .first{
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+            text-transform: uppercase;
+            color: rgb(163, 94, 10);
+            
+          }
+         .header {
+            text-align: right;
+            list-style-position: inside ;
+            margin: 0px;
+
+          }
+          blockquote{
+            border: 2px solid rgb(163, 94, 10);
+            color: rgb(53, 36, 6);
+            font-family: 'Caveat Brush', cursive;
+        color: rgb(163, 94, 10);
+      
+            text-align: left;
+            float: right;
+          
+
+          }
+form ul li { padding: 0%;
+    list-style-position:inside !important;
+    border: solid rgb(163, 94, 10);
+    margin: 2px;
+    padding: 2px;
+    
+}
+        
+            form ul li:nth-child(1){ 
+                list-style: image url(./Tiramisu-Cheesecake-Dessert.jpg) ;
+    
+            }
+            form ul li:nth-child(2){ 
+                list-style: image url(./Hot-Chocolate-Tiramisu.jpg)}
+            form ul li:nth-child(3)
+            {
+                list-style: image url(./Rich-and-Creamy-Tiramisu.jpg)
+            }
+            form ul li:nth-child(4){
+                list-style: image url(./Spiced-Pumpkin-Tiramisu.jpg);
+            }
+            form ul li:nth-child(5){
+                list-style: image url(./Cranberry-Orange\ Tiramisu\ \(1\).jpg)
+            }
+            .menu{
+            font-family: 'Caveat Brush', cursive;
+        color: rgb(163, 94, 10);
+        font-size: 50px;
+        }
+
+          .control{ background-color: rgb(163, 94, 10);
+        color: wheat;
+    font-size: 25px;
+    }
+    h1{ font-family: 'Caveat Brush', cursive;
+        color: rgb(163, 94, 10);
+        font-size: 50px;}
+
+
+form{
+    box-shadow:-6px -5px 11px -2px #FFA24F ;
+    
+}
+    </style>
+
+    
 </head>
 <body>
     <table width="900" align="center">
         <thead>
             <tr>
                 <td>
-                    <h1>Tiramisu</h1> 
+                    <h1>Tiramisu </h1> 
+                    <ul class="header">
+                        <li><a href="#about us" >ABOUT US</a></li>
+                        <li> <a href="#menu" >MENU</a></li>
+                        <li><a href="./login.html" target="_self"> LOGIN</a>  
+                        <li><a href="./location.html">LOCATION</a></li>
+                    </ul>
                     <p  align="right"> <a href="https://www.amazon.com/"> Buy on Amazon!</a> </p>
 
                 <p> Posted on <i> June 13,2019 /</i> posted in <a href="#"> No Bake Recipes</a>
@@ -84,7 +173,45 @@
 </dl>
 
 </td>
+<tr>
+    <td>
+        <form id="menu" class="first">
+          <fieldset>
+                <h4 class="menu">MENU</h4>
+                <ul>
+                <li><input type="checkbox" value="Choose the type of tiramisu" id="Tiramisu Cheesecake Dessert" name="Tiramisu Cheesecake Dessert"> <label for="Type of the tiramisu">
+                </label>Tiramisu Cheesecake Dessert</li> 
+                <li><input type="checkbox" value="Choose the type of tiramisu" id="Hot Chocolate Tiramisu" name="Hot Chocolate Tiramisu"> <label for="Type of the tiramisu">
+                </label>Hot Chocolate Tiramisu</li>
+                <li> <input type="checkbox" value="Choose the type of tiramisu" id="Rich and Creamy Tiramisu" name="Rich and Creamy Tiramisu"> <label for="Type of the tiramisu">
+                </label>Rich and Creamy Tiramisu</li>
+                <li> <input type="checkbox" value="Choose the type of tiramisu" id="Spiced Pumpkin Tiramisu" name="Spiced Pumpkin Tiramisu"> <label for="Type of the tiramisu">
+                </label>Spiced Pumpkin Tiramisu</li>
+                <li> <input type="checkbox" value="Choose the type of tiramisu" id="Cranberry-Orange Tiramisu" name="Cranberry-Orange Tiramisu"> <label for="Type of the tiramisu">
+                </label>Cranberry-Orange Tiramisu</li>
+                <br>
+               
+<br>
+<h4>Quantity</h4>
+                <input type="number" name="Quantity" max="10" min="1"> <br> <br>
+                <input class="control" type="submit" value="submit">
+               
 
+               
+            </fieldset>
+        </form>
+    </td>
+</tr>
+ <tr>
+    <td>
+        <h3 id="about us"> ABOUT US</h3>
+        <blockquote>We've 50 years' experience of crafting the finest and qualities tiramisu. From revolutionary methods and commitment to quality to unforgettable successes that have made Tiramisu Bakery’s Favourite* cbakery shop, our story is as unique as our tiramisu.</blockquote>
+
+
+
+    </td>
+ </tr>
+  
 
                 
                 
